@@ -1,0 +1,48 @@
+body {
+    background-color: yellow;
+    text-align: center;
+}
+.text {
+    margin: auto;
+    text-align: center;
+   
+}
+button {
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.01s;
+    cursor: pointer;
+}
+#reset-btn {
+    background: darkred;
+}
+#reset-btn:active {
+    background-color: red;
+}
+#increment-btn {
+    background-color: darkgreen;
+}
+#increment-btn:active {
+    background-color: green;
+}
+#save-el {
+    font-size: 35px;
+    font-weight: bold;
+}
+#save-btn {
+    background-color: darkblue;
+    
+}
+#save-btn:active {
+    background-color: blue;
+}
+.mainbox {
+    margin: auto;
+  width: 50%;
+  
+}
